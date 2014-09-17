@@ -1,15 +1,18 @@
 body{
-	
-	background-attachment: fixed;
-	background-color: black;
-	
+	background-color: black;	
 }
+
 #carousel-example-generic{
   width: 200px;
   margin-top: 1%;
-  margin-left: 10%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #map_canvas {
         width: 500px;
         height: 400px;
+}
+#title{
+	text-align: center;
+	
 }
