@@ -1,0 +1,11 @@
+body{
+	
+	background-attachment: fixed;
+	
+}
+
+#main{
+	border-color: black;
+	color: blue;
+	background-color: rgba(0, 0, 0.7);
+}
