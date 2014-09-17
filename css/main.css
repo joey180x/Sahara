@@ -1,11 +1,15 @@
 body{
 	
 	background-attachment: fixed;
+	background-color: black;
 	
 }
-
-#main{
-	border-color: black;
-	color: blue;
-	background-color: rgba(0, 0, 0.7);
+#carousel-example-generic{
+  width: 200px;
+  margin-top: 1%;
+  margin-left: 10%;
+}
+#map_canvas {
+        width: 500px;
+        height: 400px;
 }
