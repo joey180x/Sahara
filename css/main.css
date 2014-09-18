@@ -8,16 +8,12 @@
         width: 500px;
         height: 400px;
 }
+
 #main{
 	text-align: center;
-	
 }
 
-
-
-h2 { 
-   position: absolute; 
-   top: 200px; 
-   left: 0; 
-   width: 100%; 
-}	
+body {
+  background-image: url(../images/yerevan.jpg);
+  background-repeat: no-repeat;
+}
