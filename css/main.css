@@ -17,3 +17,4 @@ body {
   background-image: url(../images/yerevan.jpg);
   background-repeat: no-repeat;
 }
+@media screen and (max-width:959px) 
