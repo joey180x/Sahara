@@ -1,6 +1,6 @@
 .container{
   background-color: rgba(0, 0, 0, 0.7);
-  height: 500px;
+  height: 1000px;
 }
 body{
   background-image: url(../images/background-image-website-main.jpg);
@@ -9,7 +9,7 @@ body{
 
 }
 
-h1{
+#webtitle{
   color: white;
 }
 h2{
@@ -50,4 +50,6 @@ COLOR: white;
 }*/
 
 }
-
+#main-text{
+  color: white;
+}
