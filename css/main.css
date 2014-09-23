@@ -1,7 +1,11 @@
 body{
+  background-image: url(../images/background-image-website-main.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
-background-image: 
-
+}
+.container{
+  background-color: black;
 }
 #body{
 	padding:30px;
@@ -12,4 +16,24 @@ background-image:
     margin: 0;
     padding: 0;
  }
- 
+ #nav {
+  overflow:hidden;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+  width: 50%;
+
+}
+a:visited {
+COLOR: ;
+}
+a:hover {
+COLOR: blue;
+}
+/*a:active {     changes color when clicked
+COLOR: white;
+}*/
+
+}
+
