@@ -1,20 +1,31 @@
+.container{
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 500px;
+}
 body{
   background-image: url(../images/background-image-website-main.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 
 }
-.container{
-  background-color: black;
+
+h1{
+  color: white;
 }
+h2{
+  color: white;
+}
+
 #body{
 	padding:30px;
 }
+
 #nav{
 
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-decoration: none;
  }
  #nav {
   overflow:hidden;
@@ -26,10 +37,10 @@ body{
 
 }
 a:visited {
-COLOR: ;
+COLOR: blue;
 }
 a:hover {
-COLOR: blue;
+COLOR: white;
 }
 /*a:active {     changes color when clicked
 COLOR: white;
