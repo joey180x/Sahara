@@ -15,6 +15,9 @@ h1{
 h2{
   color: white;
 }
+h3{
+  color: white;
+}
 
 #body{
 	padding:30px;
@@ -37,10 +40,10 @@ h2{
 
 }
 a:visited {
-COLOR: blue;
+COLOR: white;
 }
 a:hover {
-COLOR: white;
+COLOR: blue;
 }
 /*a:active {     changes color when clicked
 COLOR: white;
