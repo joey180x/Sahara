@@ -1,19 +1,15 @@
-#carousel-example-generic{
-  width: 200px;
-  margin-top: 1%;
-  margin-left: auto;
-  margin-right: auto;
-}
-#map_canvas {
-        width: 500px;
-        height: 400px;
-}
+body{
 
-#main{
-	text-align: center;
-}
+background-image: 
 
-body {
-  background-image: url(../images/yerevan.jpg);
-  background-repeat: no-repeat;
 }
+#body{
+	padding:30px;
+}
+#nav{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ 
