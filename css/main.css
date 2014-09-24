@@ -1,10 +1,5 @@
 .container{
-  background-color: rgba(0, 0, 0, 0.88);
-  height: 3000px;
-  width: 915px;
-  margin-left: 17%;
-
-  
+  background-color: rgba(0, 0, 0, 0.88); 
 
 }
 body{
@@ -13,6 +8,7 @@ body{
  background-attachment: fixed;
  width:100%;
  height:100%
+ 
   
 
 }
@@ -23,7 +19,7 @@ body{
 }
 
 #body{
-	padding:30px;
+
 }
 
 #nav{
@@ -42,12 +38,17 @@ body{
   width: 50%;
 
 }
-/*a:visited {
-COLOR: white;
-}*/
-a:hover {
+a:visited {
 COLOR: white;
 }
+
+a {
+  color: white;
+}
+a:hover {
+  COLOR: blue;
+}
+
 
 }
 #main-text{
@@ -63,25 +64,11 @@ COLOR: white;
     height: auto;
 }
 #text{
-  width: 520px;
   color: white;
 }
 .hr{
   color: white;
 }
 
-@media (max-width: 914px) {
-
-#container{
-  width: 100%;
-}
-.row{
-  width: 80%;
-}
-#webtitle{
-  width: 20%;
-}
-
-}
 
 
