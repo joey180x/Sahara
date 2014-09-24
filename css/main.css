@@ -1,21 +1,24 @@
 .container{
-  background-color: rgba(0, 0, 0, 0.7);
-  height: 1000px;
+  background-color: rgba(0, 0, 0, 0.88);
+  height: 3000px;
+  width: 915px;
+  margin-left: 17%;
+
+  
+
 }
 body{
-  background-image: url(../images/background-image-website-main.jpg);
+  background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
+ background-attachment: fixed;
+ width:100%;
+ height:100%
+  
 
 }
+
 
 #webtitle{
-  color: white;
-}
-h2{
-  color: white;
-}
-h3{
   color: white;
 }
 
@@ -39,17 +42,46 @@ h3{
   width: 50%;
 
 }
-a:visited {
-COLOR: white;
-}
-a:hover {
-COLOR: blue;
-}
-/*a:active {     changes color when clicked
+/*a:visited {
 COLOR: white;
 }*/
+a:hover {
+COLOR: white;
+}
 
 }
 #main-text{
+  color: blue;
+}
+#logo{
+    width: 400px;
+    height: auto;
+}
+
+#logo{
+    width: 300px;
+    height: auto;
+}
+#text{
+  width: 520px;
   color: white;
 }
+.hr{
+  color: white;
+}
+
+@media (max-width: 914px) {
+
+#container{
+  width: 100%;
+}
+.row{
+  width: 80%;
+}
+#webtitle{
+  width: 20%;
+}
+
+}
+
+
