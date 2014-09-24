@@ -1,5 +1,9 @@
 .container{
+  padding-top: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;  
   background-color: rgba(0, 0, 0, 0.88); 
+  
 
 }
 body{
@@ -16,6 +20,7 @@ body{
 
 #webtitle{
   color: white;
+  padding-bottom: 15px;
 }
 
 #body{
@@ -28,6 +33,7 @@ body{
     margin: 0;
     padding: 0;
     text-decoration: none;
+    width: 100%;
  }
  #nav {
   overflow:hidden;
@@ -72,3 +78,10 @@ a:hover {
 
 
 
+@media (max-width: 320px) {
+  #logo {
+    margin: auto 0;
+    width: 292px;
+
+  }
+}
