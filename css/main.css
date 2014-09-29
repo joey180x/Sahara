@@ -78,13 +78,17 @@ a:hover {
 }
 #google-map{
   text-align: center;
+  padding-bottom: 20px
 
+}
+#space{
+  padding-bottom: 20px;
 }
 @media (max-width: 320px) {
   #logo {
     margin: auto 0;
-    width: 200px;
-    height: 240px;
+    width: 220px;
+    height: 275px;
 
   }
   #iframe{
