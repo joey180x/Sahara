@@ -7,13 +7,29 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Fira+Sans:500' rel='stylesheet' type='text/css'>
   
  <title>Sahara Middle Eastern Resturaunt</title>
  </head>
 
- <body>
+ <body>        
+     
 
-    <div class="container">
+
+       <div class="container">
+        <div class="row">
+        <div class="col-xs-12">
+          <center>
+            <h1 id="webtitle">Sahara</h1>
+            <h2 id="webtitle">Serving Pasadena Since 1992</h2>
+            
+            
+          </center>
+        </div>
+      </div>
+
+      <!--End title-->
+
 
       <div class="row">
         <div class="col-xs-12">
@@ -32,25 +48,23 @@
           </ul>
         </div>
       </div>
-        
+      <!--End of nav->
+      <!--start of image div-->
       <div class="row">
         <div class="col-xs-12">
-          <center>
-            <h1 id="webtitle">Sahara</h1>
-            <h2 id="webtitle">Serving Pasadena Since 1992</h2>
-            <img id="logo" src="images/banner-long.jpg" alt="logo">
-            
-          </center>
+        <center>
+         <img id="logo" src="images/banner-long.jpg" alt="logo">
+         </center>
         </div>
       </div>
-      <!--End of title row-->
+      <!--end of image div-->
        
       <!--About us main row-->
 
       <div class="row">
         <div class="col-xs-12">
           <center>
-            <h1 id="webtitle"> About Us</h1> 
+            <h1 id="webtitle">About Us</h1> 
             <p id="text">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
               Aenean commodo ligula eget dolor. Aenean massa. 
@@ -74,80 +88,45 @@
         <!--End of about us Row-->
         <!--New Row for Lunch-->
         
-       <div class="row">
+       <div class="row" id="menu-title">
         <div class="col-xs-12">
+        <center>
         <h1 id="webtitle"> Menu</h1>
+        </center>
         </div>
          </div>
 
 
-      <div class="row" id="modal">
-        <div class="col-xs-12">
-          <center>
-            
-               <button class="btn btn-primary" data-toggle="modal" data-target=".bs-Lunch-modal-lg">Lunch</button>
-                <div class="modal fade bs-Lunch-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                 <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                  <b>
-                   <h1>Lunch</h1>
-                  </b>
-                  <img class="img-responsive" src="images/Lunch-plates.PNG" alt="apitizers">
-                </div>
-               </div>
-             </div>
-           </div>
-         </div>
-         
-    <!--End of Lunch Menu Row-->
     
-
-    <!--New row for Lite Lunch Menu-->
-   <div class="row" id="modal">
-        <div class="col-xs-12">
-          <center>
-            <button class="btn btn-primary" data-toggle="modal" data-target=".bs-Lite-modal-lg">Lite Lunch</button>
-                <div class="modal fade bs-Lite-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                 <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                  <b>
-                   <h1>Lite Lunch</h1>
-                  </b>
-                  <img class="img-responsive" src="images/Lite-lunch.PNG" alt="Lite Lunch">
-                </div>
-               </div>
-             </div>
-           </div>
-         </div>
-    <!--End of Lite Lunch row-->
-  
-    <!--Start of Vegetarian Menu-->
-    <div class="row" id="modal">
-        <div class="col-xs-12">
-          <center>
-            <button class="btn btn-primary" data-toggle="modal" data-target=".bs-Veg-modal-lg">Vegetarian</button>
-                <div class="modal fade bs-Veg-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                 <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                  <b>
-                   <h1>Vegetarian</h1>
-                  </b>
-                  <img class="img-responsive" src="images/Vegetarian.PNG" alt="Lite Lunch">
-                </div>
-               </div>
-             </div>
-           </div>
-         </div> 
-    <!--End of Vegetarian-->
       
-    <!--Start of Appeztizers-->
-    <div class="row" id="modal">
+    <!--Start of Button-->
+    <div class="row" id="button">
         <div class="col-xs-12">
-          <center>
-            <a href="https://www.google.com" class="btn btn-primary btn-lg active" role="button">Primary link</a>
+         
+            <a href="https://www.yelp.com/menu/sahara-middle-eastern-cuisine-pasadena" class="btn btn-primary btn-lg active" role="button">Click for Menu!</a>
+
            </div>
          </div>
-    <!--End of Appetizers-->
+    <!--End of Button-->
+    <!--Start of Hours/Location-->
+    <div class="row">
+        <div class="col-xs-12">
+          <center>
+            <h1 id="webtitle">Hours/Location</h1> 
+            <p id="text">
+            Monday  11:00 am – 3:00 pm, 5:00 – 8:30 pm
+            Tuesday 11:00 am – 3:00 pm, 5:00 – 8:30 pm
+            Wednesday 11:00 am – 3:00 pm, 5:00 – 8:30 pm
+            Thursday  11:00 am – 3:00 pm, 5:00 – 8:30 pm
+            Friday  11:00 am – 3:00 pm, 5:00 – 9:00 pm
+            Saturday  11:00 am – 3:00 pm, 5:00 – 9:00 pm
+            Sunday  Closed
+            </p>
+          </center>
+        </div>
+      </div>
+
+    <!--End of Hours/Location-->
          
 
     <!--End of Container div-->

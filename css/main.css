@@ -1,11 +1,10 @@
 .container{
-  padding-top: 20px;
-  margin-top: 1%;
-  margin-bottom: 1%;  
-  background-color: rgba(0, 0, 0, 0.88); 
+ margin-top: .5%;
+ margin-bottom: .5%;  
+ background-color: rgba(0, 0, 0, 0.88); 
 }
-
 body{
+  font-family: 'Fira Sans', sans-serif;
   background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
  background-attachment: fixed;
@@ -14,12 +13,12 @@ body{
 }
 #webtitle{
   color: white;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
+  font-size: 40px;
+
 }
 #nav{
-
-    list-style-type: none;
-    margin: 0;
+   margin: 0;
     padding: 0;
     text-decoration: none;
     width: 100%;
@@ -61,13 +60,21 @@ a:hover {
 .hr{
   color: white;
 }
-#modal{
-  display: inline-block;
+#button{
+  text-align: center;
+}
+.row{
+  padding-bottom: 5px;
+}
+#menu{
+  text-align: center;
+  margin: 0 auto;
 }
 @media (max-width: 320px) {
   #logo {
     margin: auto 0;
-    width: 292px;
+    width: 200px;
+    height: 240px;
 
   }
 }
